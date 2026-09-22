@@ -237,6 +237,3 @@ Feedstock Maintainers
 * [@jess-farmer](https://github.com/jess-farmer/)
 * [@jfowkes](https://github.com/jfowkes/)
 
-
-<!-- dummy commit to enable rerendering -->
-
