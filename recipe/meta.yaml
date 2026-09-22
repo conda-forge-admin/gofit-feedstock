@@ -1,5 +1,5 @@
 {% set name = "gofit" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gofit-{{ version }}.tar.gz
-  sha256: 04778b35a746cf8fb49fbc4154d407a199aff5b460bb6b035aee3a31cb31e54e
+  sha256: 7b65553dfaab24cae33bf940e6ee879584f2d7e05f4ed48b08c2d1a81d5bb690
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
